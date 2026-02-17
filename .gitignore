@@ -1,0 +1,41 @@
+# Python compiled files and caches (very common)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm / IntelliJ files (since you're using PyCharm)
+.idea/
+*.iml
+*.iws
+
+# XAMPP / Apache / MySQL junk (important for your setup!)
+xampp/
+mysql/data/
+apache/logs/
+apache/conf/extra/
+php/
+tmp/
+temp/
+*.log
+*.err
+*.pid
+*.sock
+
+# Sensitive / local config files (never upload passwords!)
+.env
+config.py          # if you have DB password here
+*.ini              # sometimes used for config
+database_with_data.sql  # only if it has real data
+
+# Windows / general junk
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# If you export your DB schema (good to include), but ignore real data dumps
+# Keep *.sql commented out if you want to upload your empty schema file
+# *.sql
